@@ -1,0 +1,628 @@
+/*----MOBILE----*/
+body{
+    background-color:rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+  
+}
+h1, h3, p{
+    color:rgb(43, 40, 40);
+}
+.container{
+    margin:auto;
+    box-sizing:border-box;
+    width:100%;
+}
+
+img{
+    max-width:100%;
+}
+
+
+.telaprincipal{
+	text-align:center;  
+    background-image:linear-gradient(rgba(15, 9, 9, 0.2), rgba(199, 23, 23, 0.4)),url(images/foto1.jpeg);
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    overflow: auto;
+    width:100%;
+
+}
+
+#container-kemilly .telaprincipal{
+    background-image:linear-gradient(rgba(15, 9, 9, 0.2), rgba(199, 23, 23, 0.4)),url(images/fundokemilly.png);
+}
+
+p{
+    word-spacing: 5px;
+    line-height:25px;
+    font-size:16px;
+}
+.container .telaprincipal h1{
+    font-size:90px;
+    padding:5px;
+    padding-top:60px;
+    color:white;
+    text-align:center;
+    margin:auto;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+   
+ 
+}
+
+
+.container .botao{
+    display:inline-block;
+    text-decoration:none;
+    color:#fff;
+    border:1px solid #fff;
+    padding:12px 34px;
+    font-size:13px;
+    background:transparent;
+    position:relative;
+    cursor:pointer;
+    margin-bottom:20px;
+}
+
+.container .botao:hover{
+	border:1px solid #f44336;
+	background:#f44336;
+	transition:1s; }
+
+.galeria{
+    margin:auto;
+    text-align:center;
+    box-sizing:border-box;
+    
+}
+
+.galeria img{
+    width:70%;
+    padding:10px;
+    position:relative;
+    border-radius:30px;
+
+}
+#biografia {
+     width:100%;
+     margin:auto;
+    background-color:rgba(210, 210, 210, 0.5);
+    /* border-radius:10px; */
+
+}
+#biografia p{
+    width:75%;
+    text-align:justify;
+    margin:auto;
+    padding-bottom:30px;
+    font-size:18px;
+
+}
+#biografia h1{
+    text-align:center;
+    margin:auto;
+    padding:20px;
+}
+#container-kemilly #biografia{
+    padding-bottom:40px;
+}
+#container-kemilly #biografia img{
+    border-radius:50%;
+    margin:auto;
+    width:40%;
+    display:flex;
+}
+#albums, #ilustracoes{
+    width:90%;
+    margin:auto;
+    text-align:center;
+
+ 
+}
+#albums h3, #ilustraçoes h3{
+    font-size:30px;
+    text-align:center;
+  
+}
+#albums ul, #ilustracoes p{
+   width:50%;
+   margin:auto;
+   padding:15px;
+   
+}
+
+#albums .textoalbum ul li{
+	list-style:none;
+	position:relative;
+    font-size:20px;
+    text-align:center;
+    margin:10px;
+}
+#container-kemilly h3{
+    padding-top:50px;
+    font-size:30px;
+}
+#ilustracoes .textoalbum p{ 
+    text-align:justify;
+}
+#albums img{
+    padding:10px;
+    margin:auto;
+    border-radius:20px;
+  
+
+}
+#ilustracoes .fotoalbum {
+    display:flex;
+    margin:auto;
+    background-color:rgba(210, 210, 210, 0.5);
+    border-radius:20px;
+    padding-top:10px;
+
+}
+#ilustracoes  img{
+    width:90%;
+    height:90%;
+    margin:auto;
+    border-radius:20px;
+    box-sizing:border-box;
+    
+}
+#filmes{
+    margin:auto;
+    width:80%;
+}
+#filmes .filmes{
+ 
+    margin:20px;
+    text-align:center;
+    background-color:rgba(210, 210, 210, 0.5);
+    border-radius:20px;
+}
+#filmes .filmes img{
+    padding:10px;
+    border-radius: 20px;
+    box-sizing:border-box;
+}
+
+#filmes h1{
+    padding:10px;
+    text-align:center;
+}
+.filmes h3{
+    padding:10px;
+}
+#filmes article p{
+    padding:20px;
+    text-align:justify;
+}
+.filmes aside{
+    margin:auto;
+}
+.christiane #duke{
+    padding:30px;
+}
+.christiane{
+    margin:auto;
+    padding-bottom:30px;
+}
+.christiane iframe{
+    border-radius:20px;
+    width:90%;
+    aspect-ratio:16/9;
+   
+}
+/*---PERFORMANCES----*/
+
+#persormances{
+    width:80%;
+    margin:auto;
+    
+    
+    
+}
+#performances iframe{
+    margin:auto;
+    padding:30px;
+    max-width:80%;
+    border-radius:50px;
+
+    
+}
+#performances iframe, #performances h3, #performances p{
+    justify-content:center;
+    display:flex;
+    align-items:center;
+   
+}
+#performances h1{
+    font-weight:30px;
+    text-align:center;
+    margin-top:70px;
+    margin-bottom:30px;
+
+}
+#performances p{
+    width:70%;
+    text-align:justify;
+    margin:auto;
+    padding:30px;
+}
+/*--------*/
+
+/*PINTURAS------*/
+#pinturas{
+    width:100%;
+    background-color:rgba(210, 210, 210, 0.5);
+    margin:auto;
+    padding-top:30px;
+
+}
+#pinturas .galeria{
+    padding:30px;
+    width:90%;
+}
+#pinturas h3{
+    font-size:30px;
+    text-align:center;
+    padding:10px;
+}
+#pinturas p{
+    width:60%;
+}
+
+/*---gif-----*/
+.gif{
+    width:80%;
+    margin:auto;
+    padding:30px;
+}
+.gif img{
+    margin:auto;
+    padding:20px;
+    box-sizing:border-box;
+}
+/*---footer-----*/
+footer {
+    font-size:14px;
+    margin-top:150px;
+    background-color:rgba(210, 210, 210, 0.5);
+    text-align:center;
+    box-sizing:border-box;
+    padding:10px;
+    color:rgba(46, 46, 46, 0.5);
+
+}
+.rodape{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+footer p {
+    box-sizing:border-box;
+    max-width:90%;
+    text-align:justify;
+    padding:10px; 
+    margin:auto;
+    color:rgba(46, 46, 46, 0.5);
+}
+footer ul{
+    list-style:none;
+    padding:20px;
+    text-align:left;
+
+}
+
+footer ul li{
+    padding:5px;  
+}
+footer li a:link, footer li a:visited{
+    color:rgba(32, 32, 32, 0.7);
+    text-decoration:none; 
+  
+}
+
+
+/*----paginas dos albums-----*/
+#container-album .texto{
+    background-color:rgba(210, 210, 210, 0.5);
+    width:85%;
+    margin:auto;
+    text-align:center;
+    border-radius:20px;
+}
+#container-album .texto article h1{
+    text-align:center;
+}
+#container-album .texto article{
+    text-align:justify;
+    margin:auto;
+    padding:30px;
+}
+#container-album .texto img {
+    border-radius:50%;
+    margin:auto;
+    padding:20px;
+    box-sizing:border-box;
+
+}
+#container-album h3{
+    font-size:40px;
+    text-align:center;
+    margin:30px;
+  
+    
+}
+#container-album ol {
+    background-color:rgba(210, 210, 210, 0.5);
+    width:40%;
+    margin:auto;
+    text-align:center;
+    border-radius:20px;
+    padding:20px;
+}
+#container-album ol li{
+    width:40%;
+    padding:3px;
+    margin:auto;
+    text-align:center;
+}
+#albums ul{
+    width:70%;
+    margin:auto;
+    background-color:rgba(210, 210, 210, 0.5);
+    border-radius:30px;
+   
+
+ }
+
+ 
+#container-album footer{
+    text-align:center;
+    margin:auto;
+    padding:30px;
+    margin-top:100px;
+}
+
+/*-------index--------
+.container .bowie, .container .kemilly{
+    background-color:rgba(210, 210, 210, 0.5);
+    width:75%;
+    margin:auto;
+    padding:20px;
+    border-radius:30px;
+    margin-top:15px;
+    text-align:center;
+} 
+#container-index img{
+    border-radius:50%;
+    padding:30px;
+    box-sizing:border-box;
+}
+#container-index p{
+    text-align:justify;
+}
+#container-index h1{
+    text-align:center;
+
+}
+
+#container-index #botao-index{
+    color:#000000;
+    border:1px solid #000000;
+}
+#container-index footer p{
+    text-align:center;
+}
+.curadoria h1{
+    margin:20px;
+    color:rgba(43, 42, 42, 0.7);
+}
+-----------*/
+
+@media all and (max-width:768px){
+    .container nav li {
+        font-size:15px;
+        
+    
+    }
+    .container nav li:first-child {
+        font-size:30px;
+        
+    
+    }
+    .container nav a:link, nav a:visited{
+        color:white;
+        text-decoration:none; 
+      
+    }
+    .container nav li {
+        list-style-type:none; 
+        text-align:right;
+        padding:10px;
+        display:none; 
+    
+    }
+    
+    .container nav li:first-child{  
+        display:block; 
+    }
+    
+    .container nav:hover li { 
+            display:block; 
+    }
+    #container-album nav{
+        text-align:left;
+        padding-right:95%;
+    }
+    #container-album nav a:link, #container-album nav a:visited{
+        color:rgba(71, 69, 69, 0.5);
+        font-size:20px;
+        padding:5px;
+        
+
+    }
+    
+}
+
+/*---fim mobile---*/
+
+@media all and (min-width:768px){
+    body{
+        background-color:white;
+    }
+   
+    .container .telaprincipal h1{
+        font-size:150px;
+        letter-spacing: 5px;
+    }
+    .galeria {
+        margin:auto;
+        display:flex;
+        width:100%;
+    
+        
+    
+    }
+    .galeria div img{
+     
+        flex-basis:1%;
+        border-radius:30px; 
+        padding:10px;
+        width:85%;
+        position:relative;
+        overflow:hidden;
+    
+    }
+    #albums{
+	
+        display:flex; 
+        position:center;
+        margin:auto;
+        flex-basis:5%;
+        padding:10px;
+        box-sizing:100%;
+        transition:0.5s;
+    
+    }
+    #albums img{
+       margin:10px;
+        padding:0;
+    }
+    
+    #albums div img:hover{
+        box-shadow:0 0 40px 0px rgba(0,0,0,1.0);  
+    }
+    #ilustracoes div img:hover{
+        box-shadow:0 0 40px 0px rgba(0,0,0,1.0);  
+    }
+     #filmes  div{
+        display:flex;  
+      
+    }
+    #filmes article {
+        width:70%;
+    }
+    #filmes article p{
+        text-align:left;
+        margin:auto;
+        font-size:18px;
+    }
+    #filmes aside{
+        padding:20px 0 20px 20px;
+    }
+    /*---gif----*/
+    .gif img{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+   /*----pagina albuns-----*/
+   #container-album nav ul li a{
+       color:rgba(71, 69, 69, 0.5);
+       
+   }
+   /*------index------
+   #container-index{
+    padding:10px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;  
+    grid-template-areas:
+     "header header"
+     "bowie kemilly"
+     "footer footer";
+     grid-template-rows:100px  800px auto;
+    }
+    .curadoria{
+        grid-area:header;
+    }
+    .bowie{
+        grid-area:bowie;
+    }
+
+    .kemilly{
+        grid-area:kemilly;
+    }
+    #container-index footer{
+        grid-area:footer;
+    }
+    #botao-index{
+        color:rgb(255, 255, 255);
+        border:1px solid rgb(255, 255, 255) ;
+    }
+
+    .curadoria{
+        width:80%;
+        font-size:25px;
+        text-align:center;
+        margin:auto;
+    }
+    
+
+    -----menu--------*/
+    .container nav {
+        flex:1;
+        text-align: left;
+        padding:10px;
+    }
+
+    .container nav ul li{
+        list-style:none;
+        display:inline-block;
+        padding:5px;
+        font-size:40px;
+    }
+
+    .container nav ul li a{
+        color:#fff;
+        text-decoration:none;
+        font-size:13px;
+
+    }
+    .container nav ul li::after{
+        content: '';
+        width:0%;
+        height:2px;
+        background:#f44336;
+        display:block;
+        margin:auto;
+        transition:0.5s;
+
+    }
+
+    .container nav ul li:hover::after{  
+        width:100%;
+
+    }
+    .container nav li:first-child{ 
+        display:none;
+    } 
+    #container-album nav li {
+        display:block;
+        width:35px;
+    }
+
+}
